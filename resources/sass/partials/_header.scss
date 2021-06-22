@@ -1,0 +1,36 @@
+header{
+  background: white;
+  height: 100px;
+
+  h2{
+    color: $brand-color;
+  }
+  
+  img{
+    height: 80px;
+  }
+  
+  .container{
+    @include center('vertical');
+  }
+  
+  ul li{
+    display: inline;
+    padding: 10px;
+  }
+  ul li a{
+    display: inline-block;
+    color: $brand-color2;
+    line-height: 96px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    &:hover,
+    &.active{
+      color: $brand-color;
+      border-bottom: 4px solid $brand-color;
+    }
+  }
+  
+}
+
