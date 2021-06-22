@@ -19,11 +19,13 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/characters', function () {
-    return view('characters');
+    $links = config('links');
+    return view('characters', ['links'=>$links]);
 })->name('characters');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $links = config('links');
+    return view('comics', ['links'=>$links]);
 })->name('comics');
 
 Route::get('/partials/header', function () {
