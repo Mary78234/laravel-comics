@@ -3,3 +3,36 @@ main{
   min-height: 100px;
   color: white
 }
+
+main .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0 20px;
+  button{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 45px;
+  }
+  div.box{
+    flex-basis: calc(100% / 6);
+    margin: 20px 0;
+    padding: 0 10px;
+    .box-img{
+      position: relative;
+      height: 160px;
+      overflow: hidden;
+      img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+    p{
+      text-transform: uppercase;
+      margin: 15px 0;
+      font-size: 0.8rem;
+    }
+  }
+}

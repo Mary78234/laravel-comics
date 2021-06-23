@@ -74,6 +74,81 @@ main {
   color: white;
 }
 
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0 20px;
+}
+main .container button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 45px;
+}
+main .container div.box {
+  flex-basis: calc(100% / 6);
+  margin: 20px 0;
+  padding: 0 10px;
+}
+main .container div.box .box-img {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+main .container div.box .box-img img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+main .container div.box p {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 0.8rem;
+}
+
+section.section-jumbo {
+  height: 400px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+section.section-jumbo .container {
+  position: relative;
+}
+section.section-jumbo .container button {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: -10px;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+
+section.section-option {
+  height: 150px;
+  background-color: #0182FA;
+}
+
+section.section-option .container {
+  display: flex;
+}
+section.section-option .container div {
+  flex-basis: calc(100% / 5);
+  position: relative;
+  text-align: center;
+  line-height: 150px;
+}
+section.section-option .container div img {
+  max-width: 55px;
+  max-height: 60px;
+  transform: translateY(30%);
+}
+section.section-option .container div p {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
 footer {
   background: #303030;
   min-height: 100px;

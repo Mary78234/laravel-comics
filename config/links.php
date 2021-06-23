@@ -13,42 +13,42 @@ return [
   ],
   [
     'text' => 'movies',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'tv',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'games',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'collectibles',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'videos',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'fans',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'news',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ],
   [
     'text' => 'shop',
-    'url' => 'home',
+    'url' => 'characters',
     'current' => false
   ]
 ];

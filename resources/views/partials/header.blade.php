@@ -10,7 +10,7 @@
         
         @foreach ($links as $link)
           <li>
-            <a class="" href="{{ route($link['url']) }}"> {{ $link['text'] }} </a>
+            <a class="{{(request()->is('/')) ? 'active' : ''}}" href="{{ route($link['url']) }}"> {{ $link['text'] }} </a>
           </li>
         @endforeach
 
